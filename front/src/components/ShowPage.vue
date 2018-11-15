@@ -3,7 +3,7 @@
     <h1>상세 내용</h1>
     {{movie.name}}
     <div>
-        <strong>{{movie.name}}</strong>, <i>{{movie.director}}</i> [{{movie.year}}]
+        <strong>{{movie.name}}</strong>, <i>{{movie.director}}</i> <i>[{{movie.year}}]</i>
         <div><img v-bind:src="movie.poster" class="poster"></div>
         <router-link :to="{ name: 'index' }">목록</router-link>
     </div>
