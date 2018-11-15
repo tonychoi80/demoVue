@@ -8,7 +8,7 @@
 export default {
   name: 'App',
   metaInfo: {
-    title: 'My Example App', // set a title
+    title: 'Moive', // set a title
     titleTemplate: '%s - Yay!', // title is now "My Example App - Yay!"
     htmlAttrs: {
       amp: undefined // "amp" has no value
